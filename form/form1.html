@@ -8,13 +8,21 @@
   <body>
     <!--form : 웹 서버에 정보를 제출하기 위한 용도-->
 
-    <form action="" method="" name="" novalidate autocomplete="">
+    <form
+      action="../link/link1.html"
+      method=""
+      name=""
+      novalidate
+      autocomplete=""
+    >
       <!--action : 전송한 정보를 처리할 웹페이지의 url-->
       <!--method : 서버로 전송 할 http 방식(get(기본값)-노출됨, post-보호됨)-->
       <!--name   : 폼 이름 지정-->
       <!--novalidate : 데이터 유효성을 검사하지 않음-->
       <!--autocomplete : 자동완성(on(기본), off)-->
-
+      <div>
+        <input />
+      </div>
       <div>
         <label for="username">이름</label>
         <input type="text" id="username" />
@@ -35,10 +43,26 @@
         <input type="checkbox" name="hobby" id="" /> 영화감상
         <input type="checkbox" name="hobby" id="" /> 독서
         <input type="checkbox" name="hobby" id="" /> 운동
-        <input type="checkbox" name="hobby" id="" /> 악기연주
+        <input type="checkbox" name="hobby" id="" checked /> 악기연주
         <input type="checkbox" name="hobby" id="" /> 탕진잼
       </div>
+      <div>
+        <textarea name="" id="" cols="30" rows="10">
+          하고싶은말
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore harum nam quam ad molestias, dolorem hic doloremque amet ex tenetur atque numquam autem id officiis molestiae dolore odit commodi ut recusandae corrupti facilis! Voluptate soluta harum corporis eaque error ipsa fuga repellat eius ad nesciunt qui dolor consequuntur modi itaque molestias, nam expedita eum. Officia saepe consequatur velit cumque pariatur a atque illo ad commodi? Iste incidunt non alias molestiae assumenda consequatur facilis sint iure quia eaque cum, deleniti animi dolorem hic magnam. Eveniet debitis atque qui magnam laudantium veritatis fugiat. Voluptatibus quis numquam totam itaque esse voluptas ut error!
+        </textarea>
+      </div>
+      <div>
+        <select name="" id="">
+          <option value="bmw">bmw</option>
+          <option value="benz">benz</option>
+          <option value="hyundai" selected>현대차</option>
+          <option value="kia">기아차</option>
+        </select>
+      </div>
       <input type="button" value="보내기" />
+      <input type="submit"" value="submit" />
+      <input type="reset" value="reset" />
     </form>
   </body>
 </html>
